@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="game">
+  <h1>🥪 Sandwich Game</h1>
+
+  <div id="sandwich">
+    <div class="bread top">🍞</div>
+
+    <ul id="stack"></ul>
+
+    <div class="bread bottom">🍞</div>
+  </div>
+
+  <div class="ingredients">
+    <button onclick="add('Käse', 'cheese')">🧀 Käse</button>
+    <button onclick="add('Schinken', 'ham')">🥩 Schinken</button>
+    <button onclick="add('Bacon', 'bacon')">🥓 Bacon</button>
+    <button onclick="add('Salat', 'lettuce')">🥬 Salat</button>
+    <button onclick="add('Tomate', 'tomato')">🍅 Tomate</button>
+    <button onclick="add('Gurke', 'cucumber')">🥒 Gurke</button>
+    <button onclick="add('Ei', 'egg')">🍳 Ei</button>
+    <button onclick="add('Avocado', 'avocado')">🥑 Avocado</button>
+  </div>
+
+  <p id="score">Punkte: 0</p>
+  <button class="reset" onclick="resetGame()">🔄 Neu starten</button>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
